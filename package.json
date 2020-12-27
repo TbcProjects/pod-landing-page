@@ -1,0 +1,24 @@
+{
+  "name": "pod-landingpage",
+  "version": "1.0.0",
+  "description": "![Design preview for the Pod request access landing page coding challenge](./assets/preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TbcProjects/pod-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TbcProjects/pod-landing-page/issues"
+  },
+  "homepage": "https://github.com/TbcProjects/pod-landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
