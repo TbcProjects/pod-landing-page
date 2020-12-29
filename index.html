@@ -35,7 +35,7 @@
           <!-- title -->
           <h1 class="content__title">
             <span class="content__title-color">publish your podcasts</span
-            ><br />everywhere
+            ><br />everywhere.
           </h1>
 
           <!-- body -->
@@ -46,26 +46,42 @@
           </p>
 
           <!-- form -->
-          <form action="">
-            <input type="text" />
-            <button>Request access</button>
+          <form class="content__email" action="">
+            <input
+              id="email"
+              class="content__input"
+              type="email"
+              name="email"
+              title="Please provide a valid email"
+              placeholder="Email address"
+            />
+            <label
+              for="email"
+              data-error="E-mail address seems to be invalid"
+              data-success="What a good e-mail"
+            ></label>
+            <button class="content__btn">Request Access</button>
           </form>
 
           <!-- media -->
           <div class="content__media">
             <img
+              class="content__media-item"
               src="./public/assets/desktop/spotify.svg"
               alt="spotify-podcats"
             />
             <img
+              class="content__media-item"
               src="./public/assets/desktop/apple-podcast.svg"
               alt="apple-podcast"
             />
             <img
+              class="content__media-item"
               src="./public/assets/desktop/google-podcasts.svg"
               alt="google-podcasts"
             />
             <img
+              class="content__media-item"
               src="./public/assets/desktop/pocket-casts.svg"
               alt="pocket-casts"
             />

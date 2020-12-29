@@ -38,6 +38,7 @@
     &__title {
         font-family: $font-stack;
         font-size: $title;
+        font-weight: $font-light;
         line-height: $title-line;
         text-transform: uppercase;
         white-space: nowrap;
@@ -52,18 +53,61 @@
     &__body {
         font-family: $font-stack;
         font-size: $body;
+        font-weight: $font-light;
         line-height: $body-line;
-        color: $white;
+        color: $grey-light;
         width: 445px;
         margin-bottom: 40px;
     }
 
+    &__email {
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 56px;
+        width: 427px;
+        border-radius: 100px;
+
+        background-color: $grey-dark;
+
+    }
+
+    &__input {
+        font-size: 0.875rem;
+        font-weight: 700;
+        position: absolute;
+        left: 2rem;
+        color: $grey-light;
+    }
+
+    &__btn {
+        font-size: 0.875rem;
+        font-weight: $font-bold;
+        line-height: $body-line;
+        position: absolute;
+        width: 162px;
+        height: 46px;
+        border-radius: 100px;
+        left: 260px;
+        outline: none;
+        border: none;
+        background-color: $primary-color;
+    }
+
     &__media {
+        width: 575px;
         position: relative;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        top: 96px;
-        right: 25px
+        top: 64px;
+        right: 13px
+    }
+
+    &__media-item {
+        color: $grey-dark;
     }
 }
